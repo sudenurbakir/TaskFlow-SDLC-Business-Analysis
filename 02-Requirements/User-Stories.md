@@ -41,3 +41,11 @@ Bir ekip lideri olarak, ekibimdeki tüm görevleri görebilmek istiyorum.
 **Kabul Kriterleri:**
 - Tüm görevler görüntülenebilmeli
 - Kişi ve duruma göre filtrelenebilmeli
+
+**US-06**  
+Bir ekip lideri olarak, ekip üyelerime görev atamak istiyorum ki iş dağılımını yönetebileyim.  
+
+**Kabul Kriterleri:**
+- Görev oluştururken kullanıcı listesinden kişi seçebilmeliyim
+- Sadece ekip lideri rolündeki kişiler başkasına atama yapabilmeli
+- Normal kullanıcılar sadece kendilerine görev oluşturabilmeli
