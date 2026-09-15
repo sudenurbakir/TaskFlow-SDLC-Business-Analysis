@@ -20,3 +20,12 @@ Aynı e-posta adresi ile birden fazla kullanıcı oluşturulamaz.
 
 ### BR-06
 Görev bitiş tarihi geçmiş bir tarih olarak seçilemez.
+
+### Görev Atama Yetkileri
+
+Görev atama konusunda net kurallar;
+
+- **Ekip Lideri**, sistemdeki herhangi bir kullanıcıya görev atayabilir.
+- **Normal Kullanıcı**, sadece kendisine görev oluşturabilir veya kendisine atanan görevleri yönetebilir.
+- Bir kullanıcı, başka bir kullanıcıya doğrudan görev atayamaz.
+- Görev oluştururken “Atanan Kişi” alanı zorunludur. Atama yapılmadan görev kaydedilemez.
