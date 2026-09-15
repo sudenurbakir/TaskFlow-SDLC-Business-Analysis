@@ -29,3 +29,21 @@ Görev atama konusunda net kurallar;
 - **Normal Kullanıcı**, sadece kendisine görev oluşturabilir veya kendisine atanan görevleri yönetebilir.
 - Bir kullanıcı, başka bir kullanıcıya doğrudan görev atayamaz.
 - Görev oluştururken “Atanan Kişi” alanı zorunludur. Atama yapılmadan görev kaydedilemez.
+
+### Görev Durumu Geçiş Kuralları
+
+Görevlerin durum geçişleri kurgusu;
+
+1. **Yapılacak → Devam Ediyor**
+   - Görevi üzerine alan kişi veya Ekip Lideri yapabilir.
+
+2. **Devam Ediyor → Tamamlandı**
+   - Görevi üzerine alan kişi veya Ekip Lideri yapabilir.
+
+3. **Herhangi bir durum → İptal Edildi**
+   - Sadece Ekip Lideri yapabilir.
+
+4. **Tamamlandı** durumundaki bir görev tekrar geri alınamaz (Yapılacak veya Devam Ediyor yapılamaz).
+   - Gerekirse yeni bir görev açılır.
+
+5. **İptal Edildi** durumundaki görev tekrar aktif hale getirilemez.
